@@ -15,6 +15,7 @@ class Home extends StatelessWidget {
       ),
       body: Container(
         padding: EdgeInsets.fromLTRB(10.0, 15.0, 20.0, 25.0),
+        margin: EdgeInsets.all(20.0),
         color: Colors.grey[400],
         child: Text('hello'),
       ),
